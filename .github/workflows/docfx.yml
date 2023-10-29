@@ -24,4 +24,6 @@ jobs:
         dotnet --info
         dotnet tool restore
         dotnet tool list
+        dotnet tool restore
+        dotnet tool list
         dotnet tool run docfx --version
