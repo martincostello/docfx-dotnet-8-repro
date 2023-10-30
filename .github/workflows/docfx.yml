@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   docfx:
-    runs-on: ubuntu-latest
+    runs-on: [ macos-latest, ubuntu-latest, windows-latest ]
 
     steps:
     - name: Checkout code
